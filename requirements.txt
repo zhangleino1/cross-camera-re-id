@@ -1,0 +1,20 @@
+# 跨摄像头行人重识别项目依赖安装脚本
+
+# 基础依赖
+torch
+torchvision
+timm
+ultralytics
+opencv-python
+supervision
+scipy
+numpy
+Pillow
+safetensors
+
+# 可选依赖（用于更好的性能）
+# onnxruntime  # ONNX推理
+# tensorrt     # TensorRT加速（NVIDIA GPU）
+
+# 开发依赖
+tqdm
